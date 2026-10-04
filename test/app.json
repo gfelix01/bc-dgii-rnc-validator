@@ -1,0 +1,41 @@
+{
+  "id": "74192135-7c1e-4372-bdf3-260189f6ef81",
+  "name": "DGII RNC Validator Tests",
+  "publisher": "Gabriel Felix",
+  "version": "2.0.0.0",
+  "brief": "Automated tests for DGII RNC Validator.",
+  "description": "Test codeunits for the DGII RNC Validator extension. They never call the internet: the lookup is mocked through the OnBeforeLookupTaxpayer event.",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "https://github.com/gfelix01/bc-dgii-rnc-validator",
+  "url": "https://gabrielfelix.tech",
+  "logo": "",
+  "dependencies": [
+    {
+      "id": "f6a2a65d-fbef-4e98-b9fc-651182a95658",
+      "name": "DGII RNC Validator",
+      "publisher": "Gabriel Felix",
+      "version": "2.0.0.0"
+    },
+    {
+      "id": "dd0be2ea-f733-4d65-bb34-a28f4624fb14",
+      "name": "Library Assert",
+      "publisher": "Microsoft",
+      "version": "26.0.0.0"
+    }
+  ],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "26.0.0.0",
+  "idRanges": [
+    {
+      "from": 70150,
+      "to": 70159
+    }
+  ],
+  "runtime": "15.0",
+  "target": "Cloud",
+  "features": [
+    "NoImplicitWith"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+    "al.symbolsCountryRegion": "w1",
+    "al.packageCachePath": "./.alpackages",
+    "al.enableCodeAnalysis": true,
+    "al.codeAnalyzers": [
+        "${CodeCop}",
+        "${UICop}",
+        "${PerTenantExtensionCop}"
+    ]
+}

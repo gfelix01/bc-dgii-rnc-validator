@@ -1,0 +1,41 @@
+{
+  "id": "f6a2a65d-fbef-4e98-b9fc-651182a95658",
+  "name": "DGII RNC Validator",
+  "publisher": "Gabriel Felix",
+  "version": "2.0.0.0",
+  "brief": "Validate Dominican RNC and Cédula numbers against the DGII taxpayer registry.",
+  "description": "Looks up customers and vendors in the DGII taxpayer registry of the Dominican Republic from Business Central, validates RNC/Cédula check digits locally, and keeps the DGII status on the card.",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "https://github.com/gfelix01/bc-dgii-rnc-validator",
+  "url": "https://gabrielfelix.tech",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "26.0.0.0",
+  "idRanges": [
+    {
+      "from": 70100,
+      "to": 70149
+    }
+  ],
+  "internalsVisibleTo": [
+    {
+      "id": "74192135-7c1e-4372-bdf3-260189f6ef81",
+      "name": "DGII RNC Validator Tests",
+      "publisher": "Gabriel Felix"
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "15.0",
+  "target": "Cloud",
+  "features": [
+    "NoImplicitWith",
+    "TranslationFile"
+  ]
+}

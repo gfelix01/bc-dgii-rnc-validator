@@ -19,3 +19,6 @@ rad.json
 .snapshots/
 cache_*
 ~$*
+.vscode/launch.json
+!app/.vscode/launch.json
+!test/.vscode/launch.json
